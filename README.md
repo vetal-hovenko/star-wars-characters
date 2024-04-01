@@ -8,6 +8,9 @@ This project is a web application that displays information about Star Wars char
 - TypeScript
 - TailwindCSS
 
+## API
+The data for this application is fetched from the [Star Wars API](https://sw-api.starnavi.io/). You can explore the API to learn more about the available endpoints and data.
+
 ## Deployed App
 The app is deployed on Vercel. You can access it [here](https://star-wars-characters-63sq.vercel.app/).
 
