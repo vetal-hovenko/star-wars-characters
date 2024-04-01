@@ -25,7 +25,7 @@ const CharacterListWrapper = () => {
     const currentResponse = cachedData[cacheKey];
     return (
         <>
-            <section className="h-3/4 flex flex-col justify-center items-center w-full">
+            <section className="h-4/5 flex flex-col justify-center items-center w-full">
                 {isLoading ? (
                     <Loader />
                 ) : error ? (

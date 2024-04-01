@@ -1,9 +1,5 @@
 import type { Metadata } from "next";
 import {
-    Inter,
-    Poller_One,
-    Bebas_Neue,
-    Orbitron,
     Titillium_Web,
 } from "next/font/google";
 import "./globals.css";
