@@ -1,6 +1,7 @@
-import { COLOR_YELLOW } from "@/lib/utils/constants";
 import Link from "next/link";
 import { PiRocketLaunchThin } from "react-icons/pi";
+
+import { COLOR_YELLOW } from "@/lib/utils/constants";
 
 const HomeIntro = () => {
     return (

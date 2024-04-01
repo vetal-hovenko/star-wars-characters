@@ -3,6 +3,7 @@ import { Character } from "../types/Character";
 import { Movie } from "../types/Movie";
 import { groupStarshipsByMovie } from "./groupStarshipsByMovies";
 import { getStarshipById } from "./getStarshipById";
+import { COLOR_YELLOW } from "./constants";
 
 export interface ChartNode {
     id: string;
@@ -34,7 +35,7 @@ export async function constructChartNodes(
                 initialCoordinates.x,
                 initialCoordinates.y,
                 character.name,
-                "yellow"
+                COLOR_YELLOW
             ),
         },
     ];
